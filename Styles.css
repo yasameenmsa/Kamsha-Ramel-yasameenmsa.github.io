@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    direction: rtl;
+    /* box-sizing: border-box; */
+
+}
+.logoheader{
+    margin-top: 0.1rem ;
+    margin-bottom: 1rem ;
+    padding-top: 0.1rem;
+    padding-bottom: 1rem;
+    height: 100px;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    font: inherit;
+     /* border:20px ;
+    border-color:#361517; */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.logoimg{
+  z-index: 1000;
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 95px;
+    width: auto;
+}
+nav{
+    justify-content: space-between ;
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+    margin: 1rem 10rem ;
+    padding: 1rem;
+}
+nav a{
+  font-weight: 100;
+    color: #361517;
+    direction: none;
+    text-decoration: none;
+    font-weight:800;
+}
+
+  body {
+  margin: 0;
+} 
+
+.header {
+  font-weight: 400;
+  text-align: center;
+  padding: 32px;
+  padding-top: 0px;
+} 
+.header h1{ font-weight: 2000px;}
+.row {
+  box-sizing: border-box; 
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  max-height: 100vh;
+  flex-flow: hide;
+
+}
+
+.gallery-container {
+  width: 100%;
+  direction: ltr;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500vh; /* Set the height of the container to 500vh */
+  overflow: scroll; /* This will make the container scrollable */
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  box-sizing: border-box; 
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Existing CSS styles... */
+
+/* Footer Styles */
+.footer {
+  background-color: #f1f1f1;
+  padding: 0 px 15px;
+  /* padding-left: none;
+  padding-right: none;  */
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  flex-direction: row-reverse;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.footer-left a {
+  color: #361517;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 2px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+
+}
+
+.footer-content {
+  font-weight:600;
+  font-size: 14px;
+  color: #361517;
+  padding: 5px 20px;
+  margin-right: 2em;
+
+}
